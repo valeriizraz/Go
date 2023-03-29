@@ -1,0 +1,46 @@
+.booking__rooms-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.booking__subtitle {
+  margin-bottom: 40px;
+  
+  text-align: center;
+}
+
+.booking__rooms-button {
+  width: 250px;
+  height: 55px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+
+  outline: 3px solid transparent;
+  border-radius: 10px;
+
+  color: #000000;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.booking__rooms-button:hover {
+  background-color: #EADEED;
+  outline-color: #640AA3;
+}
+
+.booking__rooms-button:focus {
+  background-color: #6C0287;
+  outline-color: #fff;
+}
+
+.booking__rooms-button:active {
+  outline-color: #640AA3;
+}

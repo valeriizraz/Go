@@ -1,0 +1,48 @@
+.rooms__title {
+  margin-bottom: 40px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rooms__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rooms__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 580px;
+  height: 349px;
+}
+
+.rooms__item_vibes {
+  background-image: url(../../image/rooms/wives_01.jpg);
+}
+
+.rooms__item_wars {
+  background-image: url(../../image/rooms/wars_02.jpg);
+}
+
+.rooms__item_west {
+  background-image: url(../../image/rooms/west_03.jpg);
+}
+
+.rooms__item_neon {
+  background-image: url(../../image/rooms/neon_04.jpg);
+}
+
+.rooms__text {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+}

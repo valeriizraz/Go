@@ -1,0 +1,209 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
+.footer__title {
+  margin-bottom: 40px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 156px;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__item_location {
+  margin-bottom: 39px;
+}
+
+.contact__item_contact {
+  margin-bottom: 35px;
+}
+
+.contact__city {
+  width: 250px;
+}
+
+.contact__city:before {
+  content: '';
+  display: inline-block;
+
+  width: 32px;
+  height: 32px;
+  margin-right: 28px;
+
+  background-image: url(../../image/footer/contact/location.svg);
+  
+  position: relative;
+  top: 20px;
+}
+
+.contact__city-padding {
+  display: block;
+
+  padding-left: 60px;
+}
+
+.contact__tel {
+  margin-bottom: 14px;
+}
+
+.contact__tel:before {
+  
+  content: '';
+  display: inline-block;
+
+  width: 32px;
+  height: 32px;
+  margin-right: 28px;
+
+  background-image: url(../../image/footer/contact/tel.svg);
+  position: relative;
+
+  top: 8px;
+}
+
+.contact__email:before {
+  content: '';
+  display: inline-block;
+
+  width: 32px;
+  height: 32px;
+  margin-right: 28px;
+
+  background-image: url(../../image/footer/contact/email.svg);
+  
+  position: relative;
+  top: 8px;
+}
+
+.contact__social-list {
+  display: flex;
+}
+
+.contact__social-item {
+}
+
+.contact__social-item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.contact__social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.contact__social-link_vk {
+  background-image: url(../../image/footer/social/vk.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact__social-link_vk:hover {
+  background-color: #EADEED;
+}
+
+.contact__social-link_vk:active {
+  background-color: #CD06FF;
+}
+
+.contact__social-link_vk:focus {
+  background-color: #EADEED;
+  outline-color: #CD06FF;
+}
+
+.contact__social-link_tg {
+  background-image: url(../../image/footer/social/telegram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact__social-link_tg:hover {
+  background-color: #EADEED;
+}
+
+.contact__social-link_tg:active {
+  background-color: #CD06FF;
+}
+
+.contact__social-link_tg:focus {
+  background-color: #EADEED;
+  outline-color: #CD06FF;
+}
+
+.contact__social-link_pint {
+  background-image: url(../../image/footer/social/pinterest.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact__social-link_pint:hover {
+  background-color: #EADEED;
+}
+
+.contact__social-link_pint:active {
+  background-color: #CD06FF;
+}
+
+.contact__social-link_pint:focus {
+  background-color: #EADEED;
+  outline-color: #CD06FF;
+}
+
+.contact__social-link_stumb {  
+  background-image: url(../../image/footer/social/stumbleupon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact__social-link_stumb:hover {
+  background-color: #EADEED;
+}
+
+.contact__social-link_stumb:active {
+  background-color: #CD06FF;
+}
+
+.contact__social-link_stumb:focus {
+  background-color: #EADEED;
+  outline-color: #CD06FF;
+}
+
+.footer__image {
+  width: 680px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__bottom-right {
+  width: 157px;
+}

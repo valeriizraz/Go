@@ -1,0 +1,43 @@
+.galery {
+}
+.galery__title {
+  padding: 0 200px;
+
+}
+.galery__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 39px 20px;
+}
+.galery__item {
+  display: flex;
+  width: 380px;
+  height: 228px;  
+  padding: 166px 40px 6px 40px;
+}
+.galery__item_vr {
+  background-image: url(../../image/galery/vr_01.jpg);
+}
+
+.galery__item_stereo {
+  background-image: url(../../image/galery/stereo_02.jpg);
+}
+.galery__item_woman {
+  background-image: url(../../image/galery/woman_03.jpg);
+}
+.galery__item_magong {
+  background-image: url(../../image/galery/magong_04.jpg);
+}
+.galery__item_netfix {
+  background-image: url(../../image/galery/netfix_05.jpg);
+}
+.galery__item_video_games {
+  background-image: url(../../image/galery/video_games_06.jpg);
+}
+
+.galery__text {
+}
+
+.galery__text_width {
+  width: 180px;
+}

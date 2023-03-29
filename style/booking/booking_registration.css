@@ -1,0 +1,32 @@
+.booking__registration-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  margin-bottom: 40px;
+}
+
+.registration__box-date {
+  display: flex;
+  
+  padding-top: 28px;
+  margin-bottom: 28px;
+}
+
+.registration__date {
+  width: 134px;
+  margin-right: 32px;
+}
+
+.registration__time {
+  width: 134px;
+}
+
+.registration input {
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+}
+
+.registration input:focus {
+  outline-color: #CD06FF;
+}
