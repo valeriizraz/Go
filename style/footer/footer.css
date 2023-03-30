@@ -63,7 +63,6 @@
 }
 
 .contact__tel:before {
-  
   content: '';
   display: inline-block;
 
@@ -95,9 +94,6 @@
   display: flex;
 }
 
-.contact__social-item {
-}
-
 .contact__social-item:not(:last-child) {
   margin-right: 26px;
 }
@@ -106,90 +102,18 @@
   display: inline-block;
   width: 50px;
   height: 50px;
-
-  outline: 1px solid transparent;
-  outline-offset: 3px;
-  border-radius: 50%;
 }
 
-.contact__social-link_vk {
-  background-image: url(../../image/footer/social/vk.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.contact__social-link:hover > svg {
+  fill: #EADEED;
 }
 
-.contact__social-link_vk:hover {
-  background-color: #EADEED;
+.contact__social-link:active > svg {
+  fill: #CD06FF;
 }
 
-.contact__social-link_vk:active {
-  background-color: #CD06FF;
-}
-
-.contact__social-link_vk:focus {
-  background-color: #EADEED;
-  outline-color: #CD06FF;
-}
-
-.contact__social-link_tg {
-  background-image: url(../../image/footer/social/telegram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.contact__social-link_tg:hover {
-  background-color: #EADEED;
-}
-
-.contact__social-link_tg:active {
-  background-color: #CD06FF;
-}
-
-.contact__social-link_tg:focus {
-  background-color: #EADEED;
-  outline-color: #CD06FF;
-}
-
-.contact__social-link_pint {
-  background-image: url(../../image/footer/social/pinterest.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.contact__social-link_pint:hover {
-  background-color: #EADEED;
-}
-
-.contact__social-link_pint:active {
-  background-color: #CD06FF;
-}
-
-.contact__social-link_pint:focus {
-  background-color: #EADEED;
-  outline-color: #CD06FF;
-}
-
-.contact__social-link_stumb {  
-  background-image: url(../../image/footer/social/stumbleupon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.contact__social-link_stumb:hover {
-  background-color: #EADEED;
-}
-
-.contact__social-link_stumb:active {
-  background-color: #CD06FF;
-}
-
-.contact__social-link_stumb:focus {
-  background-color: #EADEED;
-  outline-color: #CD06FF;
+.contact__social-link:focus > svg {
+  border: 1px solid #CD06FF;
 }
 
 .footer__image {

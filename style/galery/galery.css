@@ -14,7 +14,18 @@
   width: 380px;
   height: 228px;  
   padding: 166px 40px 6px 40px;
+
+  transition-duration: 0.2s;
+  transition-property: transform;
+  transition-delay: 0.2s;
 }
+
+.galery__item:hover {
+  transform: scale(110%);
+  
+  
+}
+
 .galery__item_vr {
   background-image: url(../../image/galery/vr_01.jpg);
 }
