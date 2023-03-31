@@ -13,9 +13,26 @@
   text-align: center;
 }
 
-.booking__rooms-button {
+.booking__boxinput-rooms {
+  display: inline-block;
+}
+
+.booking__boxinput-rooms input[type=radio] {
+  display: none;
+}
+
+.booking__rooms-input {
+
+}
+
+.label {
+
+}
+
+.booking__boxinput-rooms label {
   width: 250px;
   height: 55px;
+  padding-top: 7px;
 
   font-size: 30px;
   font-weight: 700;
@@ -29,18 +46,22 @@
   color: #000000;
   background-color: #fff;
   border-radius: 10px;
+
+  cursor: pointer;
+  user-select: none;
 }
 
-.booking__rooms-button:hover {
+.booking__boxinput-rooms label:hover {
   background-color: #EADEED;
   outline-color: #640AA3;
 }
 
-.booking__rooms-button:focus {
+.booking__boxinput-rooms label:active {
+  outline-color: #640AA3;
+}
+
+.booking__boxinput-rooms label:focus {
   background-color: #6C0287;
   outline-color: #fff;
 }
 
-.booking__rooms-button:active {
-  outline-color: #640AA3;
-}

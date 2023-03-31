@@ -76,6 +76,14 @@
   top: 8px;
 }
 
+.contact__tel-link:hover {
+  color: #CD06FF;
+}
+
+.contact__email-link:hover {
+  color: #CD06FF;
+}
+
 .contact__email:before {
   content: '';
   display: inline-block;
@@ -130,4 +138,8 @@
 
 .footer__bottom-right {
   width: 157px;
+}
+
+.footer__bottom-right-link:hover {
+  color: #CD06FF;
 }
