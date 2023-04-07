@@ -21,14 +21,6 @@
   display: none;
 }
 
-.booking__rooms-input {
-
-}
-
-.label {
-
-}
-
 .booking__boxinput-rooms label {
   width: 250px;
   height: 55px;
@@ -43,6 +35,9 @@
   outline: 3px solid transparent;
   border-radius: 10px;
 
+  transition-duration: 2s, 1s;
+  transition-property: background-color, outline-color;
+
   color: #000000;
   background-color: #fff;
   border-radius: 10px;
@@ -53,15 +48,15 @@
 
 .booking__boxinput-rooms label:hover {
   background-color: #EADEED;
-  outline-color: #640AA3;
+  outline-color: var(--main-color-three, #640AA3);
 }
 
 .booking__boxinput-rooms label:active {
-  outline-color: #640AA3;
+  outline-color: var(--main-color-three, #640AA3);
 }
 
 .booking__boxinput-rooms label:focus {
-  background-color: #6C0287;
+  background-color: var(--main-color-two, #6C0287);
   outline-color: #fff;
 }
 

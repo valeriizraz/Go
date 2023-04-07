@@ -28,5 +28,5 @@
 }
 
 .registration input:focus {
-  outline-color: #CD06FF;
+  outline-color: var(--main-color, #CD06FF);
 }

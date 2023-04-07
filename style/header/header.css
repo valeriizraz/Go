@@ -17,13 +17,37 @@
   text-transform: uppercase;
 }
 
+.header__logo > svg{
+  transition-duration: 1s;
+  transition-property: fill;
+}
+
+.header__logo:hover > svg {
+  fill: var(--main-color, #CD06FF);
+}
+
+.header__logo > svg .ugol {
+  fill: var(--main-color, #CD06FF);
+  transition-duration: 1s;
+  transition-property: fill;
+}
+
+.header__logo:hover > svg .ugol {
+  fill: #fff;
+}
+
 .nav__list {
   display: flex;
   gap: 40px;
 }
 
+.nav__link {
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+
 .nav__link:hover {
-  color: #CD06FF;
+  color: var(--main-color, #CD06FF);
 }
 
 .header__button-top {
@@ -36,26 +60,42 @@
 
   background-color: transparent;
   color: inherit;
-  outline: 3px solid #CD06FF;
+  /* outline: 3px solid var(--main-color, #CD06FF); */
   border-radius: 10px;
+
+  transition-duration: 2s, 2s;
+  transition-property: background-color, outline;
 
   position: relative;
 }
 
+.header__button-top:after {
+  content: '';
+  display: inline-block;
+
+  border-radius: 10px;
+  /* border: 3px solid #fff; */
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .header__button-top:hover {
-  background-color: #6C0287;
-  border: #6C0287;
-  outline: none;
+  background-color: var(--main-color-two, #6C0287);
+  outline-color: #fff;
 }
 
 .header__button-top:focus {
-  background-color: #640AA3;
+  background-color: var(--main-color-three, #640AA3);
   outline: #000;
 }
 
 .header__button-top:active {
-  background-color: #6C0287;
-  outline: #640AA3;
+  background-color: var(--main-color-two, #6C0287);
+  outline: var(--main-color-three, #640AA3);
 }
 
 .header__content {
@@ -107,7 +147,7 @@
   line-height: 141px;
   text-align: center;
 
-  color: #CD06FF;
+  color: var(--main-color, #CD06FF);
 }
 
 .header__content-list-left-text {
@@ -125,7 +165,7 @@
   line-height: 106px;
   font-variant: all-small-caps;
 
-  color: #CD06FF;
+  color: var(--main-color, #CD06FF);
 }
 
 .header__content-list-right-text {
@@ -143,21 +183,24 @@
   line-height: 30px;
   text-transform: uppercase;
 
-  background-color: #6C0287;
+  transition-duration: 2s;
+  transition-property: background-color;
+
+  background-color: var(--main-color-two, #6C0287);
   color: #FFFFFF;
   border-radius: 10px;
 }
 
 .header__content-button:hover {
-  background-color: #840AA3;
+  background-color: var(--main-color-four, #840AA3);
 }
 
 .header__content-button:focus {
-  background-color: #640AA3;
+  background-color: var(--main-color-three, #640AA3);
 }
 
 .header__content-button:active {
-  background-color: #840AA3;
+  background-color: var(--main-color-four, #840AA3);
 
 }
 
@@ -167,34 +210,27 @@
   width: 100px;
   height: 100px;
 
+  background-image: url(../../image/header/push.svg);
+  background-repeat: no-repeat;
+
   position: absolute;
   left: 570px;
   bottom: 90px;
+
+  transition-duration: 1s, 1s;
+  transition-property: background-image;
 
   color: transparent;
   outline: 1px solid transparent;
 }
 
-.header__content-button-push:hover > svg {
-  fill: #fff;
+.header__content-button-push:hover {
+  background-image: url(../../image/header/push_hover.svg);
+  background-repeat: no-repeat;
 }
 
-.header__content-button-push:hover > svg > rect {
-  fill: #640AA3;
+.header__content-button-push:active {
+  background-image: url(../../image/header/push_active.svg);
+  background-repeat: no-repeat;
 }
 
-.header__content-button-push:active > svg {
-  fill: #CD06FF;
-}
-
-.header__content-button-push:active > svg > rect {
-  fill: #fff;
-}
-
-.header__content-button-push:active > svg > circle {
-  stroke: #CD06FF;
-}
-
-.header__content-button-push:focus {
-  outline-color: #CD06FF;
-}

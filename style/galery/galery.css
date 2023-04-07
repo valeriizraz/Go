@@ -1,4 +1,5 @@
 .galery {
+  padding-bottom: 120px;
 }
 .galery__title {
   padding: 0 200px;
@@ -21,7 +22,7 @@
 }
 
 .galery__item:hover {
-  transform: scale(110%);
+  transform: scale(1.1);
   
   
 }
@@ -32,6 +33,7 @@
 
 .galery__item_stereo {
   background-image: url(../../image/galery/stereo_02.jpg);
+  transform: translateY(70px);
 }
 .galery__item_woman {
   background-image: url(../../image/galery/woman_03.jpg);
@@ -41,6 +43,7 @@
 }
 .galery__item_netfix {
   background-image: url(../../image/galery/netfix_05.jpg);
+  transform: translateY(70px);
 }
 .galery__item_video_games {
   background-image: url(../../image/galery/video_games_06.jpg);

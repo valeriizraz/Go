@@ -76,12 +76,22 @@
   top: 8px;
 }
 
+.contact__tel-link {
+  transition-duration: 1s;
+  transition-property: color;
+}
+
 .contact__tel-link:hover {
-  color: #CD06FF;
+  color: var(--main-color, #CD06FF);
+}
+
+.contact__email-link {
+  transition-duration: 0.6s;
+  transition-property: color;
 }
 
 .contact__email-link:hover {
-  color: #CD06FF;
+  color: var(--main-color, #CD06FF);
 }
 
 .contact__email:before {
@@ -110,6 +120,12 @@
   display: inline-block;
   width: 50px;
   height: 50px;
+
+}
+
+.contact__social-link > svg {
+  transition-duration: 0.6s;
+  transition-property: fill;
 }
 
 .contact__social-link:hover > svg {
@@ -117,11 +133,11 @@
 }
 
 .contact__social-link:active > svg {
-  fill: #CD06FF;
+  fill: var(--main-color, #CD06FF);
 }
 
 .contact__social-link:focus > svg {
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--main-color, #CD06FF);
 }
 
 .footer__image {
@@ -140,6 +156,11 @@
   width: 157px;
 }
 
+.footer__bottom-right-link {
+  transition-duration: 0.6s;
+  transition-property: color;
+}
+
 .footer__bottom-right-link:hover {
-  color: #CD06FF;
+  color: var(--main-color, #CD06FF);
 }

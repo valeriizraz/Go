@@ -45,7 +45,7 @@
   font-size: 50px;
   font-weight: 700;
 
-  color: #6C0287;
+  color: var(--main-color-two, #6C0287);
 }
 
 .about__text_big:after {
@@ -59,7 +59,7 @@
   font-size: 50px;
   font-weight: 700;
 
-  color: #6C0287;
+  color: var(--main-color-two, #6C0287);
 }
 
 .about__text-simbol {
