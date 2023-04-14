@@ -1,15 +1,18 @@
 .galery {
   padding-bottom: 120px;
 }
+
 .galery__title {
   padding: 0 200px;
 
 }
+
 .galery__list {
   display: flex;
   flex-wrap: wrap;
   gap: 39px 20px;
 }
+
 .galery__item {
   display: flex;
   width: 380px;
@@ -23,6 +26,14 @@
 
 .galery__item:hover {
   transform: scale(1.1);
+}
+
+.galery__item_trans_rot {
+  transform: translateY(70px);
+}
+
+.galery__item_trans_rot:hover {
+  transform: translateY(70px) scale(1.1);
 }
 
 .galery__item_vr {
@@ -43,9 +54,6 @@
 }
 .galery__item_video_games {
   background-image: url(../../image/galery/video_games_06.jpg);
-}
-
-.galery__text {
 }
 
 .galery__text_width {
