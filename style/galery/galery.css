@@ -13,6 +13,10 @@
   gap: 39px 20px;
 }
 
+.galery__item:nth-child(3n-1) {
+  transform: translateY(70px);
+}
+
 .galery__item {
   display: flex;
   width: 380px;
@@ -28,9 +32,9 @@
   transform: scale(1.1);
 }
 
-.galery__item_trans_rot {
+/* .galery__item_trans_rot {
   transform: translateY(70px);
-}
+} */
 
 .galery__item_trans_rot:hover {
   transform: translateY(70px) scale(1.1);
