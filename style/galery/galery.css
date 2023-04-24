@@ -8,39 +8,99 @@
 }
 
 .galery__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 39px 20px;
-}
-
-.galery__item:nth-child(3n-1) {
-  transform: translateY(70px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 35px 20px;
 }
 
 .galery__item {
-  display: flex;
+  max-width: 380px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
   width: 380px;
-  height: 228px;  
-  padding: 166px 40px 6px 40px;
+  height: 228px;
+  max-width: 380px;
+  max-height: 228px;   */
+  /* padding: 34px 40px; */
 
   transition-duration: 0.2s;
   transition-property: transform;
   transition-delay: 0.2s;
+
+  position: relative;
+}
+
+.galery__text-img {
+  position: absolute;
+
+  left: 40px;
+  bottom: 38px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  
+  /* letter-spacing: 0.1em; */
+}
+
+.galery__text-img_small {
+  width: 195px;
+  bottom: 10px;
+  /* padding-bottom: 6px; */
+}
+
+.galery__text-img_small_width {
+  width: 300px;
+}
+
+.galery__item_vr {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.galery__item_stereo {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.galery__item_woman {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.galery__item_magong {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.galery__item_netfix {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.galery__item_video_games {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+
+.galery__item:nth-child(3n-1) {
+  transform: translateY(70px);
 }
 
 .galery__item:hover {
   transform: scale(1.1);
 }
 
-/* .galery__item_trans_rot {
-  transform: translateY(70px);
-} */
-
 .galery__item_trans_rot:hover {
   transform: translateY(70px) scale(1.1);
 }
 
-.galery__item_vr {
+/* .galery__item_vr {
   background-image: url(../../image/galery/vr_01.jpg);
 }
 
@@ -58,8 +118,8 @@
 }
 .galery__item_video_games {
   background-image: url(../../image/galery/video_games_06.jpg);
-}
+} */
 
 .galery__text_width {
-  width: 180px;
+  
 }
