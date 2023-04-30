@@ -38,7 +38,7 @@
 }
 
 .header__nav {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   font-size: 22px;
 }
 
@@ -241,7 +241,7 @@
 
 @media (max-width: 1200px) {
   .header {
-    padding-bottom: 50px;
+    padding-bottom: 32px;
   }
   
   .header__top {
@@ -439,7 +439,7 @@
 @media (max-width: 700px) {
   .header {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 26px;
   }
 
   .header__top {
