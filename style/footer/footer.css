@@ -17,6 +17,7 @@
 .footer__contact {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 
   margin-bottom: 156px;
 }
@@ -141,7 +142,8 @@
 }
 
 .footer__image {
-  width: 680px;
+  max-width: 680px;
+
 }
 
 .footer__bottom {
@@ -163,4 +165,35 @@
 
 .footer__bottom-right-link:hover {
   color: var(--main-color, #CD06FF);
+}
+
+@media (max-width: 1000px) {
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  
+    margin-bottom: 156px;
+  }
+
+  .contact__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact__city {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .contact__city:before {
+    transform: translate(15px, -15px);
+  }
+
+  .contact__item_location {
+    margin-bottom: 0;
+  }
 }

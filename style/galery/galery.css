@@ -53,7 +53,8 @@
   transform: scale(1.1);
 }
 
-.galery__item_trans_rot:hover {
+.galery__item_stereo:hover,
+.galery__item_netfix:hover {
   transform: translateY(70px) scale(1.1);
 }
 
