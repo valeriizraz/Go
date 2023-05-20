@@ -25,6 +25,9 @@
 .contact__list {
   display: flex;
   flex-direction: column;
+
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .contact__item_location {
@@ -143,7 +146,6 @@
 
 .footer__image {
   max-width: 680px;
-
 }
 
 .footer__bottom {
@@ -167,6 +169,17 @@
   color: var(--main-color, #CD06FF);
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    padding-top: 35px;
+  }
+
+  .footer__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
 @media (max-width: 1000px) {
   .footer__contact {
     display: flex;
@@ -176,6 +189,11 @@
     gap: 60px;
   
     margin-bottom: 156px;
+  }
+
+  .footer__title {
+    font-size: 24px;
+    line-height: 36px;
   }
 
   .contact__list {
@@ -195,5 +213,21 @@
 
   .contact__item_location {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer {
+    padding-top: 15px;
+  }
+
+  .footer__title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact__list {
+    font-size: 14px;
+    line-height: 18px;
   }
 }

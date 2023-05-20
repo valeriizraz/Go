@@ -297,29 +297,30 @@
         <fieldset class="booking__registration-wrapper registration">
           <legend class="booking__title-registration booking__subtitle">Выбери дату и время</legend>
               
-            <div class="registration__box registration__box-wrapper">
-              <div class="registration__box-date">
+            <div class="registration__box-big">
+              <div class="registration__box-datetime">
                 
                 <input class="registration__input registration__input-date" type="date" name="date" tabindex="21">
                 
                 <input class="registration__input registration__input-time" type="time" name="time" tabindex="22">
               </div>
               <input class="registration__input-people" type="number" name="number_people" placeholder="Количество людей" tabindex="23">
+              
             </div>
 
             <div class="registration__box registration__box-name name">
               <label class="registration__label">Имя*</label>
-                <input class="registration__input" type="text" name="name" tabindex="24">
+                <input class="registration__input registration__input_margin_bottom" type="text" name="name" tabindex="24">
               
 
               <label class="registration__label">Фамилия*</label>
-                <input class="registration__input" type="text" name="surname" tabindex="25">
+                <input class="registration__input" type="text" name="name" tabindex="25">
               
             </div>
             
             <div class="registration__box registration__box-contact contact">
               <label class="registration__label">Телефон</label>
-                <input class="registration__input" type="tel" name="tel" tabindex="26">
+                <input class="registration__input registration__input_margin_bottom" type="tel" name="tel" tabindex="26">
               
               <label class="registration__label">E-mail</label>
                 <input class="registration__input" type="email" name="age" tabindex="27">
@@ -327,10 +328,11 @@
             </div>
                 
           </fieldset>
-          <div class="booking__button-box">
-            <button class="booking__button" type="submit" tabindex="28">Забронировать</button>
-          </div>  
+          
         </form>
+        <div class="booking__button-box">
+          <button class="booking__button" type="submit" tabindex="28">Забронировать</button>
+        </div> 
       </div>
     </section>
 
