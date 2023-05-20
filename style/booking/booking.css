@@ -92,6 +92,8 @@
 }
 
 @media (max-width: 767px) {
+  
+
   .booking__button-box {    
     justify-content: center;
   }
