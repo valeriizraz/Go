@@ -2,16 +2,6 @@
   padding-bottom: 100px;
 }
 
-.rooms__title {
-  margin-bottom: 44px;
-
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .rooms__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -79,13 +69,6 @@
     padding-bottom: 65px;
   }
 
-  .rooms__title {
-    margin-bottom: 36px;
-
-    font-size: 30px;
-    line-height: 40px;
-  }
-
   .rooms__list {
     gap: 15px 20px;
   }
@@ -106,13 +89,6 @@
     padding-bottom: 58px;
   }
 
-  .rooms__title {
-    margin-bottom: 34px;
-
-    font-size: 24px;
-    line-height: 36px;
-  }
-
   .rooms__list {
     gap: 13px 20px;
   }
@@ -130,13 +106,6 @@
   .rooms {
     padding-top: 15px;
     padding-bottom: 25px;
-  }
-
-  .rooms__title {
-    margin-bottom: 15px;
-
-    font-size: 14px;
-    line-height: 18px;
   }
 
   .rooms__list {

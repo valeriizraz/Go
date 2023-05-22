@@ -39,7 +39,7 @@
 }
 
 .contact__city {
-  width: 250px;
+  width: auto;
 }
 
 .contact__city:before {

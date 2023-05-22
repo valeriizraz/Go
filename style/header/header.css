@@ -107,11 +107,10 @@
 
 .header__content-background:after {
   content: "";
-  display: inline-block;
   width: 675px;
   height: 762px;
 
-  background-image: url(../../image/header/header_negr.png);
+  background-image: url(../../image/header/header_content_negr.png);
   background-repeat: no-repeat;
 
   position: absolute;
